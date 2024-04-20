@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+}
+
+/* .back-img {
+  height: 100vh;
+  width: 100%;
+  background-image: url(back-img2.jpg);
+  background-size: cover;
+  opacity: 0.7;
+} */
+
+/* body {
+  height: 100vh;
+  width: auto;
+  background-image: url(back-img2.jpg);
+  background-size: cover;
+  backdrop-filter: blur(1px);
+  opacity: 0.1;
+} */
+
+/* .main-nav {
+  display: flex;
+}
+
+.navbar {
+  background-color: black;
+  width: auto;
+  height: 80px;
+}
+
+.navlogo {
+  background-image: url("netflix-logo-1.webp");
+  background-size: cover;
+  width: 180px;
+  height: 80px;
+  backdrop-filter: blur(180px);
+}
+
+button {
+  color: white;
+  background-color: red;
+} */
+
+.image {
+  background-image: url(back-img2.jpg);
+  background-size: cover;
+  height: 700px;
+  /* opacity: 0.5; */
+  /* backdrop-filter: blur(10px); */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value (last parameter) to change the darkness */
+}
+
+.main-heading {
+  position: relative; /* Set position relative to establish stacking context */
+  z-index: 1; /* Ensure the heading content is above the overlay */
+}
+
+.navbar {
+  height: 80px;
+  width: 750;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  background-image: url(netflixlogo.png);
+  background-size: cover;
+  width: 110px;
+  height: 70px;
+}
+
+.nav-button button {
+  background-color: red;
+  color: white;
+  width: 85px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+/* Center Heading */
+
+.main-heading {
+  color: #ffffff;
+
+  font-size: 25px;
+  font-weight: 700;
+  /* width: 645px; */
+  height: 325px;
+  text-align: center;
+  /* background-color: blue; */
+  margin-top: 150px;
+}
+
+.main-heading p {
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-heading input {
+  width: 300px;
+  height: 48px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.main-heading button {
+  width: 160px;
+  height: 48px;
+  background-color: red;
+  font-size: 1rem;
+  font-weight: 700;
+}
